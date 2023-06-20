@@ -9,4 +9,11 @@
     <Company>4voice</Company>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="GitVersion.MsBuild" Version="5.12.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
 </Project>
